@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="This is a totally legit resume for a totally real person who just happens to have a fake-sounding name and some really weird work experience, and looks exactly like Pam from The Office.">
@@ -8,16 +8,16 @@
 
 <body>
 
-  <header>
+  <header role="banner">
     <h1>Sally Student's Resume</h1>
   </header>
 
-  <main>
-    <section id="photo">
+  <main role="main">
+    <section id="photo" role="region">
       <img src="pam-the-office4.jpg" alt="Sally Student smiles at the camera" height="180px" width="325px">
     </section>
 
-    <section id="contact">
+    <section id="contact" role="region">
       <h2>Contact Information</h2>
       <address>
         Sally Student<br>
@@ -29,7 +29,7 @@
       </address>
     </section>
 
-    <section id="education">
+    <section id="education" role="region">
       <h2>Education</h2>
       <ul>
         <li class="place">Starfleet Academy
@@ -47,7 +47,7 @@
       </ul>
     </section>
 
-    <section id="employment">
+    <section id="employment" role="region">
       <h2>Employment</h2>
       <ul>
         <li class="place">First Order
@@ -68,12 +68,16 @@
           <ul class="credentials">
             <li class="detail title">Receptionist</li>
             <li class="detail timeframe">June 2003 - March 2005</li>
-            <li class="detail">Acted as first point of contact for all inquiries via either magical(two-way mirror) or mundane (telephone) means of communication</li>
+            <li class="detail">Acted as first point of contact for all inquiries via either magical (two-way mirror) or mundane (telephone) means of communication</li>
           </ul>
         </li>
       </ul>
     </section>
-
   </main>
+
+  <footer role="siteinfo">
+    © 2018 Lucas Ogden-Davis
+  </footer>
+
 </body>
 </html>
